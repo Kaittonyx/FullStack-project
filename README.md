@@ -47,6 +47,7 @@
 
 ## 🚀 Как запустить проект локально
 
-1. Склонируйте репозиторий:
+1. Склонируйте репозиторий и вставьте в терминал:
    ```bash
-   git clone <https://github.com/Kaittonyx/FullStack-project>
+   git clone https://github.com/Kaittonyx/FullStack-project.git
+    
