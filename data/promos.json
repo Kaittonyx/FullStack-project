@@ -1,0 +1,25 @@
+{
+  "banners": [
+    { "id": "b-1", "emoji": "🎁", "title": "Вторая пицца со скидкой 30%", "text": "Каждый вторник при заказе двух пицц одинакового размера.", "tone": "red" },
+    { "id": "b-2", "emoji": "🚀", "title": "Бесплатная доставка от 8 000 ₸", "text": "Привезём горячую пиццу бесплатно по всему городу.", "tone": "yellow" },
+    { "id": "b-3", "emoji": "🎮", "title": "Собери свою пиццу", "text": "Попробуйте конструктор и получите баллы за лучшие сочетания.", "tone": "green" }
+  ],
+  "codes": [
+    { "code": "WELCOME10", "description": "−10% на первый заказ", "usage": "128 / 500", "isActive": true },
+    { "code": "FRIDAY500", "description": "−500 ₸ при заказе от 6 000 ₸", "usage": "64 / 200", "isActive": true },
+    { "code": "SUMMER24", "description": "Летняя акция", "usage": "300 / 300", "isActive": false }
+  ],
+  "stats": {
+    "rating": 4.8,
+    "reviews": 312,
+    "salesByDay": [
+      { "day": "Пн", "amount": 182000 },
+      { "day": "Вт", "amount": 241000 },
+      { "day": "Ср", "amount": 205000 },
+      { "day": "Чт", "amount": 228000 },
+      { "day": "Пт", "amount": 356000 },
+      { "day": "Сб", "amount": 412000 },
+      { "day": "Вс", "amount": 337000 }
+    ]
+  }
+}

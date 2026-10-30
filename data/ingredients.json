@@ -1,0 +1,14 @@
+[
+  { "id": "i-tomato-sauce", "name": "Томатный соус", "type": "sauce", "price": 0, "emoji": "🍅", "isAvailable": true },
+  { "id": "i-cream-sauce", "name": "Сливочный соус", "type": "sauce", "price": 150, "emoji": "🥛", "isAvailable": true },
+  { "id": "i-mozzarella", "name": "Моцарелла", "type": "cheese", "price": 300, "emoji": "🧀", "isAvailable": true },
+  { "id": "i-cheddar", "name": "Чеддер", "type": "cheese", "price": 350, "emoji": "🧀", "isAvailable": true },
+  { "id": "i-pepperoni", "name": "Пепперони", "type": "meat", "price": 450, "emoji": "🍖", "isAvailable": true },
+  { "id": "i-ham", "name": "Ветчина", "type": "meat", "price": 400, "emoji": "🥓", "isAvailable": true },
+  { "id": "i-chicken", "name": "Курица", "type": "meat", "price": 400, "emoji": "🍗", "isAvailable": true },
+  { "id": "i-mushrooms", "name": "Шампиньоны", "type": "vegetable", "price": 250, "emoji": "🍄", "isAvailable": true },
+  { "id": "i-onion", "name": "Красный лук", "type": "vegetable", "price": 150, "emoji": "🧅", "isAvailable": true },
+  { "id": "i-olives", "name": "Оливки", "type": "vegetable", "price": 250, "emoji": "🫒", "isAvailable": true },
+  { "id": "i-pepper", "name": "Болгарский перец", "type": "vegetable", "price": 200, "emoji": "🫑", "isAvailable": true },
+  { "id": "i-pineapple", "name": "Ананасы", "type": "vegetable", "price": 250, "emoji": "🍍", "isAvailable": false }
+]

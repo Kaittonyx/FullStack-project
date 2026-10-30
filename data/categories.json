@@ -1,0 +1,7 @@
+[
+  { "id": "c-pizza", "name": "Пиццы", "slug": "pizza", "emoji": "🍕" },
+  { "id": "c-drinks", "name": "Напитки", "slug": "drinks", "emoji": "🥤" },
+  { "id": "c-snacks", "name": "Закуски", "slug": "snacks", "emoji": "🍟" },
+  { "id": "c-desserts", "name": "Десерты", "slug": "desserts", "emoji": "🍰" },
+  { "id": "c-sauces", "name": "Соусы", "slug": "sauces", "emoji": "🥫" }
+]

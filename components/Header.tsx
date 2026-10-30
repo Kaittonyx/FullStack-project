@@ -1,0 +1,60 @@
+import Link from "next/link";
+import { getSession } from "@/lib/demo-session";
+import { cartCount } from "@/lib/data";
+import { roleLabels, staffNav } from "@/lib/permissions";
+import RoleSwitcher from "./RoleSwitcher";
+
+export default async function Header() {
+  const { role, user } = await getSession();
+  const isShopper = role === "guest" || role === "customer";
+  const links = isShopper
+    ? [
+        { href: "/catalog", label: "Меню" },
+        { href: "/builder", label: "Конструктор" },
+      ]
+    : [{ href: "/catalog", label: "Меню" }, ...staffNav[role]];
+
+  return (
+    <header className="header">
+      <div className="container header-inner">
+        <Link href="/" className="logo">
+          🍕 LINK <span>Pizza</span>
+        </Link>
+
+        <nav className="nav" aria-label="Основная навигация">
+          {links.map((l) => (
+            <Link key={l.href} href={l.href}>
+              {l.label}
+            </Link>
+          ))}
+        </nav>
+
+        <div className="header-actions">
+          <RoleSwitcher current={role} />
+
+          {isShopper && (
+            <Link href="/cart" className="cart-link">
+              🛒 Корзина<span className="cart-count">{cartCount()}</span>
+            </Link>
+          )}
+
+          {user ? (
+            <Link href="/profile" className="user-chip" title={roleLabels[role]}>
+              <span className="avatar">{user.name[0]}</span>
+              {user.name.split(" ")[0]}
+            </Link>
+          ) : (
+            <>
+              <Link href="/login" className="btn btn-ghost btn-sm">
+                Войти
+              </Link>
+              <Link href="/register" className="btn btn-primary btn-sm">
+                Регистрация
+              </Link>
+            </>
+          )}
+        </div>
+      </div>
+    </header>
+  );
+}

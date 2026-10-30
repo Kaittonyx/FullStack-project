@@ -1,0 +1,181 @@
+[
+  {
+    "id": "o-1052",
+    "number": "LP-1052",
+    "customerId": "u-customer",
+    "status": "PENDING",
+    "createdAt": "2026-10-30T11:52:00+05:00",
+    "items": [
+      { "name": "Пепперони", "size": "30 см", "quantity": 1, "unitPrice": 4190 },
+      { "name": "Кола 0,5 л", "quantity": 2, "unitPrice": 690 }
+    ],
+    "deliveryFee": 500,
+    "discount": 0,
+    "paymentMethod": "Картой онлайн",
+    "address": "Астана, пр. Кабанбай батыра, 34, кв. 56",
+    "addressComment": "Подъезд 3, домофон 56",
+    "comment": "",
+    "courierId": null
+  },
+  {
+    "id": "o-1051",
+    "number": "LP-1051",
+    "customerId": "u-customer2",
+    "status": "CONFIRMED",
+    "createdAt": "2026-10-30T11:46:00+05:00",
+    "items": [
+      { "name": "Четыре сыра", "size": "35 см", "quantity": 1, "unitPrice": 4590 },
+      { "name": "Сырные палочки", "quantity": 1, "unitPrice": 1490 }
+    ],
+    "deliveryFee": 0,
+    "discount": 600,
+    "paymentMethod": "Наличными курьеру",
+    "address": "Астана, ул. Достык, 12, кв. 8",
+    "addressComment": "",
+    "comment": "Без пармезана на половине пиццы",
+    "courierId": null
+  },
+  {
+    "id": "o-1050",
+    "number": "LP-1050",
+    "customerId": "u-customer",
+    "status": "PREPARING",
+    "createdAt": "2026-10-30T11:38:00+05:00",
+    "items": [
+      { "name": "Маргарита", "size": "25 см", "quantity": 2, "unitPrice": 3290 },
+      { "name": "Картофель фри", "quantity": 1, "unitPrice": 1190 }
+    ],
+    "deliveryFee": 500,
+    "discount": 0,
+    "paymentMethod": "Картой онлайн",
+    "address": "Астана, ул. Сыганак, 10, офис 214",
+    "addressComment": "Позвонить с ресепшена",
+    "comment": "Побольше базилика",
+    "courierId": null
+  },
+  {
+    "id": "o-1049",
+    "number": "LP-1049",
+    "customerId": "u-customer2",
+    "status": "PREPARING",
+    "createdAt": "2026-10-30T11:31:00+05:00",
+    "items": [
+      { "name": "Мясная", "size": "35 см", "quantity": 1, "unitPrice": 4890 },
+      { "name": "Лимонад цитрусовый", "quantity": 1, "unitPrice": 790 }
+    ],
+    "deliveryFee": 500,
+    "discount": 0,
+    "paymentMethod": "Картой онлайн",
+    "address": "Астана, ул. Достык, 12, кв. 8",
+    "addressComment": "",
+    "comment": "",
+    "courierId": null
+  },
+  {
+    "id": "o-1048",
+    "number": "LP-1048",
+    "customerId": "u-customer2",
+    "status": "READY",
+    "createdAt": "2026-10-30T11:15:00+05:00",
+    "items": [
+      { "name": "Гавайская", "size": "30 см", "quantity": 1, "unitPrice": 4090 }
+    ],
+    "deliveryFee": 500,
+    "discount": 0,
+    "paymentMethod": "Наличными курьеру",
+    "address": "Астана, ул. Достык, 12, кв. 8",
+    "addressComment": "",
+    "comment": "",
+    "courierId": null
+  },
+  {
+    "id": "o-1047",
+    "number": "LP-1047",
+    "customerId": "u-customer",
+    "status": "ASSIGNED_TO_COURIER",
+    "createdAt": "2026-10-30T11:02:00+05:00",
+    "items": [
+      { "name": "Пепперони", "size": "35 см", "quantity": 1, "unitPrice": 4190 },
+      { "name": "Чизкейк Нью-Йорк", "quantity": 1, "unitPrice": 1590 }
+    ],
+    "deliveryFee": 0,
+    "discount": 0,
+    "paymentMethod": "Картой онлайн",
+    "address": "Астана, пр. Кабанбай батыра, 34, кв. 56",
+    "addressComment": "Подъезд 3, домофон 56",
+    "comment": "Позвонить за 5 минут",
+    "courierId": "u-courier"
+  },
+  {
+    "id": "o-1046",
+    "number": "LP-1046",
+    "customerId": "u-customer3",
+    "status": "OUT_FOR_DELIVERY",
+    "createdAt": "2026-10-30T10:48:00+05:00",
+    "items": [
+      { "name": "Четыре сыра", "size": "30 см", "quantity": 1, "unitPrice": 4590 },
+      { "name": "Морс ягодный", "quantity": 1, "unitPrice": 790 }
+    ],
+    "deliveryFee": 500,
+    "discount": 0,
+    "paymentMethod": "Картой онлайн",
+    "address": "Астана, ул. Мангилик Ел, 55, кв. 120",
+    "addressComment": "Оставить у двери",
+    "comment": "",
+    "courierId": "u-courier"
+  },
+  {
+    "id": "o-1045",
+    "number": "LP-1045",
+    "customerId": "u-customer",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-28T19:20:00+05:00",
+    "items": [
+      { "name": "Маргарита", "size": "30 см", "quantity": 1, "unitPrice": 3290 },
+      { "name": "Брауни", "quantity": 2, "unitPrice": 1290 }
+    ],
+    "deliveryFee": 500,
+    "discount": 0,
+    "paymentMethod": "Картой онлайн",
+    "address": "Астана, пр. Кабанбай батыра, 34, кв. 56",
+    "addressComment": "Подъезд 3, домофон 56",
+    "comment": "",
+    "courierId": "u-courier2"
+  },
+  {
+    "id": "o-1044",
+    "number": "LP-1044",
+    "customerId": "u-customer",
+    "status": "DELIVERED",
+    "createdAt": "2026-10-22T20:05:00+05:00",
+    "items": [
+      { "name": "Мясная", "size": "35 см", "quantity": 1, "unitPrice": 4890 },
+      { "name": "Картофель фри", "quantity": 1, "unitPrice": 1190 },
+      { "name": "Кола 0,5 л", "quantity": 1, "unitPrice": 690 }
+    ],
+    "deliveryFee": 0,
+    "discount": 500,
+    "paymentMethod": "Наличными курьеру",
+    "address": "Астана, ул. Сыганак, 10, офис 214",
+    "addressComment": "Позвонить с ресепшена",
+    "comment": "",
+    "courierId": "u-courier"
+  },
+  {
+    "id": "o-1043",
+    "number": "LP-1043",
+    "customerId": "u-customer3",
+    "status": "CANCELLED",
+    "createdAt": "2026-10-30T10:10:00+05:00",
+    "items": [
+      { "name": "Грибная", "size": "25 см", "quantity": 1, "unitPrice": 3890 }
+    ],
+    "deliveryFee": 500,
+    "discount": 0,
+    "paymentMethod": "Картой онлайн",
+    "address": "Астана, ул. Мангилик Ел, 55, кв. 120",
+    "addressComment": "Оставить у двери",
+    "comment": "Отменено клиентом",
+    "courierId": null
+  }
+]

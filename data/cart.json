@@ -1,0 +1,6 @@
+[
+  { "productId": "p-pepperoni", "size": "30 см", "quantity": 1 },
+  { "productId": "p-margherita", "size": "25 см", "quantity": 2 },
+  { "productId": "d-cola", "quantity": 2 },
+  { "productId": "ds-cheesecake", "quantity": 1 }
+]

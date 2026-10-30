@@ -1,0 +1,75 @@
+[
+  {
+    "id": "u-customer",
+    "name": "Айдана Серикова",
+    "email": "aidana@example.com",
+    "phone": "+7 701 123 45 67",
+    "role": "customer",
+    "addresses": [
+      { "id": "a-1", "label": "Дом", "line": "Астана, пр. Кабанбай батыра, 34, кв. 56", "comment": "Подъезд 3, домофон 56" },
+      { "id": "a-2", "label": "Работа", "line": "Астана, ул. Сыганак, 10, офис 214", "comment": "Позвонить с ресепшена" }
+    ]
+  },
+  {
+    "id": "u-customer2",
+    "name": "Данияр Ахметов",
+    "email": "daniyar@example.com",
+    "phone": "+7 707 555 11 22",
+    "role": "customer",
+    "addresses": [
+      { "id": "a-3", "label": "Дом", "line": "Астана, ул. Достык, 12, кв. 8", "comment": "" }
+    ]
+  },
+  {
+    "id": "u-customer3",
+    "name": "Камила Нурова",
+    "email": "kamila@example.com",
+    "phone": "+7 705 777 90 90",
+    "role": "customer",
+    "addresses": [
+      { "id": "a-4", "label": "Дом", "line": "Астана, ул. Мангилик Ел, 55, кв. 120", "comment": "Оставить у двери" }
+    ]
+  },
+  {
+    "id": "u-cook",
+    "name": "Нурлан Абенов",
+    "email": "nurlan.cook@linkpizza.kz",
+    "phone": "+7 701 200 00 01",
+    "role": "cook"
+  },
+  {
+    "id": "u-cook2",
+    "name": "Сабина Омарова",
+    "email": "sabina.cook@linkpizza.kz",
+    "phone": "+7 701 200 00 02",
+    "role": "cook"
+  },
+  {
+    "id": "u-courier",
+    "name": "Ерлан Тулегенов",
+    "email": "erlan.courier@linkpizza.kz",
+    "phone": "+7 701 300 00 01",
+    "role": "courier"
+  },
+  {
+    "id": "u-courier2",
+    "name": "Асхат Мукашев",
+    "email": "askhat.courier@linkpizza.kz",
+    "phone": "+7 701 300 00 02",
+    "role": "courier"
+  },
+  {
+    "id": "u-manager",
+    "name": "Мадина Касымова",
+    "email": "madina.manager@linkpizza.kz",
+    "phone": "+7 701 400 00 01",
+    "role": "manager"
+  },
+  {
+    "id": "u-admin",
+    "name": "Алихан Бекенов",
+    "email": "admin@linkpizza.kz",
+    "phone": "+7 701 500 00 01",
+    "role": "admin"
+  }
+]
